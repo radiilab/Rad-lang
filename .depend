@@ -1,0 +1,13 @@
+number.o: number.cpp exception.h number.h
+program.o: program.cpp exception.h number.h statement.h function.h \
+  program.h symbolTable.h functionTable.h
+expression.o: expression.cpp symbolTable.h number.h function.h \
+  functionTable.h expression.h
+statement.o: statement.cpp exception.h number.h symbolTable.h \
+  functionTable.h expression.h function.h statement.h
+symbolTable.o: symbolTable.cpp exception.h number.h symbolTable.h
+exception.o: exception.cpp exception.h number.h
+functionTable.o: functionTable.cpp exception.h number.h functionTable.h
+function.o: function.cpp exception.h number.h symbolTable.h \
+  functionTable.h statement.h expression.h function.h
+main.o: main.cpp

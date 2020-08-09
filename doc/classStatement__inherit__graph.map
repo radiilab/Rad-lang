@@ -1,0 +1,9 @@
+<map id="Statement" name="Statement">
+<area shape="rect" id="node2" href="$classAssignment.html" title="{Assignment\n||+ Assignment()\l+ ~Assignment()\l+ eval()\l}" alt="" coords="5,197,124,303"/>
+<area shape="rect" id="node3" href="$classFunctionCall.html" title="{FunctionCall\n||+ FunctionCall()\l+ ~FunctionCall()\l+ eval()\l}" alt="" coords="149,197,271,303"/>
+<area shape="rect" id="node4" href="$classFunctionDef.html" title="{FunctionDef\n||+ FunctionDef()\l+ ~FunctionDef()\l+ eval()\l}" alt="" coords="296,197,417,303"/>
+<area shape="rect" id="node5" href="$classIfElse.html" title="{IfElse\n||+ IfElse()\l+ IfElse()\l+ ~IfElse()\l+ eval()\l}" alt="" coords="441,189,525,311"/>
+<area shape="rect" id="node6" href="$classPrint.html" title="{Print\n||+ Print()\l+ ~Print()\l+ eval()\l}" alt="" coords="550,197,627,303"/>
+<area shape="rect" id="node7" href="$classReturn.html" title="{Return\n||+ Return()\l+ ~Return()\l+ eval()\l}" alt="" coords="652,197,741,303"/>
+<area shape="rect" id="node8" href="$classWhile.html" title="{While\n||+ While()\l+ ~While()\l+ eval()\l}" alt="" coords="766,197,849,303"/>
+</map>

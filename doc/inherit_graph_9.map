@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classStatement.html" title="Statement" alt="" coords="5,157,88,184"/>
+<area shape="rect" id="node2" href="$classAssignment.html" title="Assignment" alt="" coords="138,5,229,32"/>
+<area shape="rect" id="node3" href="$classFunctionCall.html" title="FunctionCall" alt="" coords="136,56,231,83"/>
+<area shape="rect" id="node4" href="$classFunctionDef.html" title="FunctionDef" alt="" coords="137,107,230,133"/>
+<area shape="rect" id="node5" href="$classIfElse.html" title="IfElse" alt="" coords="155,157,211,184"/>
+<area shape="rect" id="node6" href="$classPrint.html" title="Print" alt="" coords="159,208,208,235"/>
+<area shape="rect" id="node7" href="$classReturn.html" title="Return" alt="" coords="153,259,214,285"/>
+<area shape="rect" id="node8" href="$classWhile.html" title="While" alt="" coords="156,309,211,336"/>
+</map>
