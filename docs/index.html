@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Piethon: Main Page</title>
+<title>Piethon: Piethon</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,13 +61,52 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Piethon Documentation</div>  </div>
+<div class="title">Piethon </div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><p>A basic python-like interpreter in C++ using flex and bison.</p>
+<h3>Requirements</h3>
+<p>A C++ compiler, Flex, and Bison.</p>
+<h3>Build Instructions</h3>
+<p>To build the project, run make.</p>
+<h3>Running the Interpreter</h3>
+<p>To run the interpreter accepting input from STDIN, run ./piethon To use a source file, run ./piethon filename</p>
+<p>Sample programs can be found in the 'test' directory.</p>
+<h3>Features</h3>
+<p>This program aims to be an experiment with Flex, Bison, and Abstract Syntax Trees, rather than any sort of Python replacement. However, the following (small) functionality exists.</p>
+<ul>
+<li>Integer and floating point expressions</li>
+<li>If/Else blocks</li>
+<li>Variables (with both global and function scope)</li>
+<li>Functions (including nested functions and recursion)</li>
+<li><a class="el" href="classWhile.html">While</a> loops</li>
+<li>Arithmetic Operators (+, -, *, /, %, ^)</li>
+<li><a class="el" href="classAssignment.html">Assignment</a> operators (+=, -=, *=, /=, ^=, %=)</li>
+<li>Increment/Decrement operator (++/&ndash;, cannot currently be used in expressions)</li>
+<li>Comments (beginning with a '#')</li>
+<li>Condiional statements (&lt;, &gt;, &lt;=, &gt;=, ==, !=)</li>
+<li>Line-number reporting for both syntactic and semantic errors</li>
+<li>Different return codes for semantic/syntactic errors. The interpreter will return the following values:<ul>
+<li>0: successful parse and run</li>
+<li>1: syntax error</li>
+<li>2: semantic error</li>
+<li>3: other error (ex: source file not found)</li>
+</ul>
+</li>
+<li><a class="el" href="classFunction.html">Function</a> calls as statements. Simply "f()" is a valid program statement. If <a class="el" href="main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627">main()</a> is defined, it will automatically be invoked.</li>
+<li>Smart exception handling and error messages for runtime errors, such as:<ul>
+<li>unbound identifier</li>
+<li>undefined function</li>
+<li>function signature mismatch</li>
+<li>div/mod by zero</li>
+<li>return statement outside of function body </li>
+</ul>
+</li>
+</ul>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Aug 9 2020 10:21:14 for Piethon by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 19 2021 23:43:11 for Piethon by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
